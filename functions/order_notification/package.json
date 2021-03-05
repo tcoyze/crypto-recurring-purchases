@@ -1,0 +1,17 @@
+{
+  "name": "coinbase-pro-order-notification",
+  "version": "1.0.0",
+  "description": "Setup coinbase pro order slack notifications with google cloud functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tyler@tylersbrain.com",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.7.1",
+    "axios": "^0.21.1",
+    "coinbase-pro": "^0.9.0",
+    "lodash": "^4.17.20"
+  }
+}
